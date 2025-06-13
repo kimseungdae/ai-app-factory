@@ -1,0 +1,342 @@
+{
+  "workflow_info": {
+    "workflow_id": "workflow_20250613_162723",
+    "trend_keyword": "AI fitness",
+    "category": "health",
+    "status": "completed",
+    "start_time": "2025-06-13T16:27:23.989737",
+    "end_time": "2025-06-13T16:27:23.996021",
+    "total_duration": 0.006284,
+    "successful_stages": "6/6"
+  },
+  "stage_results": {
+    "trend_collection": {
+      "status": "completed",
+      "duration": 8e-05,
+      "retry_count": 0,
+      "error_message": null,
+      "result_summary": "Selected trend: AI fitness (Score: 87.5)"
+    },
+    "ux_analysis": {
+      "status": "completed",
+      "duration": 8.2e-05,
+      "retry_count": 0,
+      "error_message": null,
+      "result_summary": "Generated 3 personas and 1 strategies"
+    },
+    "design_system": {
+      "status": "completed",
+      "duration": 0.000437,
+      "retry_count": 0,
+      "error_message": null,
+      "result_summary": "Created design system for AiFitnessPro with 4 components"
+    },
+    "prototype_build": {
+      "status": "completed",
+      "duration": 0.003058,
+      "retry_count": 0,
+      "error_message": null,
+      "result_summary": "Built React prototype for AiFitnessPro with 7 files"
+    },
+    "deployment": {
+      "status": "completed",
+      "duration": 0.000713,
+      "retry_count": 0,
+      "error_message": null,
+      "result_summary": "Configured deployment for 2 platforms"
+    },
+    "reporting": {
+      "status": "completed",
+      "duration": 8.1e-05,
+      "retry_count": 0,
+      "error_message": null,
+      "result_summary": "Generated comprehensive workflow report"
+    }
+  },
+  "generated_outputs": {
+    "trend_collection": {
+      "selected_trend": {
+        "keyword": "AI fitness",
+        "score": 87.5,
+        "category": "health",
+        "data_sources": [
+          "reddit",
+          "google_trends"
+        ],
+        "related_images": [
+          "https://images.unsplash.com/photo-AI-fitness"
+        ],
+        "trend_data": {
+          "reddit_mentions": 245,
+          "google_trend_score": 85,
+          "growth_rate": "23%"
+        }
+      },
+      "collection_method": "mock"
+    },
+    "ux_analysis": {
+      "trend_keyword": "AI fitness",
+      "category": "health",
+      "personas": [
+        {
+          "name": "김현수 (바쁜 직장인)",
+          "age": 28,
+          "occupation": "마케팅 매니저",
+          "pain_points": [
+            "업무 효율성 부족",
+            "시간 관리 어려움"
+          ],
+          "motivations": [
+            "생산성 향상",
+            "업무-생활 균형"
+          ],
+          "tech_comfort": "high",
+          "preferred_platforms": [
+            "mobile",
+            "desktop"
+          ]
+        },
+        {
+          "name": "박지영 (프리랜서)",
+          "age": 32,
+          "occupation": "그래픽 디자이너",
+          "pain_points": [
+            "클라이언트 관리",
+            "프로젝트 일정 관리"
+          ],
+          "motivations": [
+            "업무 체계화",
+            "수익 증대"
+          ],
+          "tech_comfort": "medium",
+          "preferred_platforms": [
+            "desktop",
+            "tablet"
+          ]
+        },
+        {
+          "name": "이민준 (창업 준비생)",
+          "age": 25,
+          "occupation": "예비 창업자",
+          "pain_points": [
+            "아이디어 정리 부족",
+            "팀 협업 도구 부족"
+          ],
+          "motivations": [
+            "성공적인 창업",
+            "팀 효율성"
+          ],
+          "tech_comfort": "high",
+          "preferred_platforms": [
+            "mobile",
+            "web"
+          ]
+        }
+      ],
+      "jobs_to_be_done": {
+        "functional_jobs": [
+          "업무 일정을 효율적으로 관리하고 싶다",
+          "반복 작업을 자동화하고 싶다",
+          "팀과 원활하게 소통하고 싶다"
+        ],
+        "emotional_jobs": [
+          "업무 성취감을 느끼고 싶다",
+          "스트레스를 줄이고 싶다"
+        ],
+        "social_jobs": [
+          "효율적인 팀원으로 인식되고 싶다",
+          "최신 도구를 사용하는 트렌디한 사람이 되고 싶다"
+        ]
+      },
+      "strategies": [
+        {
+          "name": "AI-First Simplicity",
+          "description": "AI가 복잡한 작업을 자동화하여 사용자는 간단한 인터페이스만 사용",
+          "key_principles": [
+            "AI 추천 기반 업무 우선순위",
+            "자동 일정 최적화",
+            "스마트 알림 시스템"
+          ],
+          "target_emotion": "confidence"
+        }
+      ]
+    },
+    "design_system": {
+      "app_concept": {
+        "name": "AiFitnessPro",
+        "tagline": "AI fitness를 위한 스마트 솔루션",
+        "category": "health"
+      },
+      "brand_identity": {
+        "color_palette": {
+          "colors": {
+            "primary": {
+              "50": "#f0f9ff",
+              "500": "#0ea5e9",
+              "900": "#0c4a6e"
+            },
+            "secondary": {
+              "500": "#8b5cf6"
+            }
+          }
+        },
+        "typography_system": {
+          "font_families": {
+            "display": "Inter",
+            "body": "Inter"
+          }
+        }
+      },
+      "component_system": {
+        "components": {
+          "button": {
+            "variants": [
+              "primary",
+              "secondary",
+              "ghost"
+            ]
+          },
+          "input": {
+            "variants": [
+              "default",
+              "error"
+            ]
+          },
+          "card": {
+            "variants": [
+              "default",
+              "elevated"
+            ]
+          },
+          "avatar": {
+            "sizes": [
+              "sm",
+              "md",
+              "lg"
+            ]
+          }
+        }
+      }
+    },
+    "prototype_build": {
+      "project_info": {
+        "app_name": "AiFitnessPro",
+        "project_path": "generated_apps/aifitnesspro",
+        "generated_at": "2025-06-13T16:27:23.994993"
+      },
+      "generated_files": {
+        "components": [
+          "Button.jsx",
+          "Input.jsx",
+          "Card.jsx"
+        ],
+        "screens": [
+          "MainScreen.jsx",
+          "ProfileScreen.jsx"
+        ],
+        "config": [
+          "package.json",
+          "tailwind.config.js"
+        ]
+      },
+      "deployment": {
+        "vercel": {
+          "ready": true
+        },
+        "netlify": {
+          "ready": true
+        }
+      },
+      "urls": {
+        "local_dev": "http://localhost:3000"
+      }
+    },
+    "deployment": {
+      "deployment_configs": [
+        "vercel.json",
+        "netlify.toml"
+      ],
+      "platforms": {
+        "vercel": {
+          "config_file": "generated_apps/aifitnesspro/vercel.json",
+          "deploy_command": "vercel --prod",
+          "ready": true
+        },
+        "netlify": {
+          "config_file": "generated_apps/aifitnesspro/netlify.toml",
+          "deploy_command": "netlify deploy --prod",
+          "ready": true
+        }
+      },
+      "instructions": [
+        "cd generated_apps/aifitnesspro",
+        "npm install",
+        "npm run build",
+        "Deploy using vercel --prod or netlify deploy --prod"
+      ]
+    },
+    "reporting": {
+      "workflow_summary": {
+        "workflow_id": "workflow_20250613_162723",
+        "trend_keyword": "AI fitness",
+        "start_time": "2025-06-13T16:27:23.989737",
+        "total_duration": 0.006236,
+        "status": "completed"
+      },
+      "stage_details": {
+        "trend_collection": {
+          "status": "completed",
+          "duration": 8e-05,
+          "retry_count": 0,
+          "error_message": null
+        },
+        "ux_analysis": {
+          "status": "completed",
+          "duration": 8.2e-05,
+          "retry_count": 0,
+          "error_message": null
+        },
+        "design_system": {
+          "status": "completed",
+          "duration": 0.000437,
+          "retry_count": 0,
+          "error_message": null
+        },
+        "prototype_build": {
+          "status": "completed",
+          "duration": 0.003058,
+          "retry_count": 0,
+          "error_message": null
+        },
+        "deployment": {
+          "status": "completed",
+          "duration": 0.000713,
+          "retry_count": 0,
+          "error_message": null
+        },
+        "reporting": {
+          "status": "in_progress",
+          "duration": null,
+          "retry_count": 0,
+          "error_message": null
+        }
+      },
+      "final_outputs": {
+        "app_name": "AiFitnessPro",
+        "project_path": "generated_apps/aifitnesspro"
+      }
+    }
+  },
+  "next_steps": [
+    "1. Navigate to project: cd generated_apps/aifitnesspro",
+    "2. Install dependencies: npm install",
+    "3. Start development: npm start",
+    "4. Open http://localhost:3000",
+    "5. Deploy using vercel --prod or netlify deploy --prod"
+  ],
+  "performance_metrics": {
+    "total_time": "0.01 seconds",
+    "average_stage_time": "0.00 seconds",
+    "success_rate": "100.0%"
+  }
+}

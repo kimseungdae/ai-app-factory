@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-06-13T16:11:56.069020",
+  "overall_status": "degraded",
+  "components": {
+    "TrendCollector": {
+      "status": "error",
+      "error": "attempted relative import beyond top-level package"
+    },
+    "UXResearcher": {
+      "status": "error",
+      "error": "attempted relative import beyond top-level package"
+    },
+    "IdeaGenerator": {
+      "status": "error",
+      "error": "attempted relative import beyond top-level package"
+    },
+    "DesignSystemGenerator": {
+      "status": "error",
+      "error": "No module named 'webcolors'"
+    }
+  },
+  "integrations": {
+    "TrendCollector": {
+      "passed": false,
+      "status": "Error: attempted relative import beyond top-level package",
+      "details": "Failed to test basic functionality"
+    },
+    "UXResearcher": {
+      "passed": false,
+      "status": "Error: attempted relative import beyond top-level package",
+      "details": "Failed to test fallback functionality"
+    },
+    "DesignSystemGenerator": {
+      "passed": false,
+      "status": "Error: No module named 'webcolors'",
+      "details": "Failed to test color generation"
+    },
+    "CompleteWorkflow": {
+      "passed": false,
+      "status": "Error: attempted relative import beyond top-level package",
+      "details": "Failed to initialize workflow"
+    }
+  },
+  "recommendations": [
+    "Missing Python packages: pyyaml, python-dotenv, openai, praw, pytrends, beautifulsoup4, python-unsplash, colorthief, webcolors, pillow",
+    "Configure OpenAI API key",
+    "Configure Reddit API key"
+  ],
+  "api_dependencies": {
+    "OpenAI": {
+      "available": false,
+      "status": "Not configured",
+      "required": true,
+      "service": "AI text generation"
+    },
+    "Reddit": {
+      "available": false,
+      "status": "Not configured",
+      "required": true,
+      "service": "Trend data collection"
+    },
+    "Unsplash": {
+      "available": false,
+      "status": "Not configured",
+      "required": false,
+      "service": "Image recommendations"
+    },
+    "Supabase": {
+      "available": false,
+      "status": "Not configured",
+      "required": false,
+      "service": "Data storage"
+    }
+  }
+}

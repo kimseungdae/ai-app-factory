@@ -1,0 +1,15 @@
+requests
+python-dotenv
+pyyaml
+praw
+openai
+supabase
+pytrends
+beautifulsoup4
+python-unsplash
+colorthief
+webcolors
+pillow
+jinja2
+dataclasses
+pathlib

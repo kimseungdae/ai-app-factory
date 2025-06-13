@@ -1,0 +1,52 @@
+app:
+  name: "AI App Factory"
+  version: "1.0.0"
+  debug: false
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/app.log"
+
+apis:
+  openai:
+    model: "gpt-3.5-turbo"
+    max_tokens: 1000
+    temperature: 0.7
+  
+  reddit:
+    user_agent: "AI App Factory Bot 1.0"
+    timeout: 30
+  
+  google_trends:
+    timeout: 30
+    geo: "US"
+    timeframe: "today 12-m"
+
+agents:
+  ux_researcher:
+    enabled: true
+    sources: ["reddit", "google_trends"]
+  
+  trend_collector:
+    enabled: true
+    update_interval: 3600  # 1 hour
+  
+  idea_generator:
+    enabled: true
+    creativity_level: 0.8
+  
+  design_generator:
+    enabled: true
+    output_format: "markdown"
+
+project_templates:
+  web_app:
+    framework: "react"
+    backend: "fastapi"
+  
+  mobile_app:
+    framework: "flutter"
+  
+  desktop_app:
+    framework: "electron"

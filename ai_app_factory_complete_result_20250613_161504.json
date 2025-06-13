@@ -1,0 +1,35 @@
+{
+  "workflow_completed": true,
+  "timestamp": "2025-06-13T16:15:04.834462",
+  "generated_app": {
+    "name": "ProductivityAI Pro",
+    "tagline": "AI가 만드는 완벽한 업무 흐름",
+    "category": "productivity",
+    "project_path": "generated_prototypes/productivityai-pro"
+  },
+  "trend_analysis": {
+    "keyword": "AI productivity tools",
+    "score": 87.5,
+    "growth_rate": "23%"
+  },
+  "ux_insights": {
+    "personas_generated": 3,
+    "strategies_developed": 2,
+    "primary_strategy": "AI-First Simplicity"
+  },
+  "design_system": {
+    "primary_color": "#0ea5e9",
+    "font_family": "Pretendard",
+    "components_defined": 4
+  },
+  "prototype": {
+    "files_generated": 6,
+    "ready_for_development": true,
+    "deployment_ready": true
+  },
+  "business_potential": {
+    "target_market": "한국 직장인 및 프리랜서",
+    "competitive_advantage": "AI 자동화 + 한국 문화 최적화",
+    "success_probability": "High (85%+)"
+  }
+}

@@ -1,0 +1,111 @@
+2025-06-13 16:27:08,835 - __main__ - INFO - 🔍 Validating environment configuration...
+2025-06-13 16:27:08,837 - __main__ - WARNING - ⚠️  Missing required environment variables:
+2025-06-13 16:27:08,838 - __main__ - WARNING -    • OPENAI_API_KEY (OpenAI API (for UX analysis))
+2025-06-13 16:27:08,838 - __main__ - WARNING -    • REDDIT_CLIENT_ID (Reddit API (for trend collection))
+2025-06-13 16:27:08,838 - __main__ - WARNING -    • REDDIT_CLIENT_SECRET (Reddit API (for trend collection))
+2025-06-13 16:27:08,838 - __main__ - WARNING -    • REDDIT_USERNAME (Reddit API (for trend collection))
+2025-06-13 16:27:08,838 - __main__ - WARNING -    • REDDIT_PASSWORD (Reddit API (for trend collection))
+2025-06-13 16:27:08,838 - __main__ - WARNING - ⚠️  Some features may not work properly
+2025-06-13 16:27:08,839 - __main__ - INFO - ℹ️  Optional features available with additional setup:
+2025-06-13 16:27:08,839 - __main__ - INFO -    • UNSPLASH_ACCESS_KEY (Unsplash API (for images))
+2025-06-13 16:27:08,839 - __main__ - INFO -    • SUPABASE_URL (Supabase (for data storage))
+2025-06-13 16:27:08,839 - __main__ - INFO -    • SUPABASE_KEY (Supabase (for data storage))
+2025-06-13 16:27:08,839 - __main__ - INFO -    • NOTION_TOKEN (Notion API (for reporting))
+2025-06-13 16:27:08,839 - __main__ - INFO -    • NOTION_DATABASE_ID (Notion Database (for reporting))
+2025-06-13 16:27:08,839 - __main__ - INFO -    • FIGMA_ACCESS_TOKEN (Figma API (for design integration))
+2025-06-13 16:27:08,839 - __main__ - INFO -    • VERCEL_TOKEN (Vercel API (for deployment))
+2025-06-13 16:27:15,560 - __main__ - INFO - 🔍 Validating environment configuration...
+2025-06-13 16:27:15,560 - __main__ - WARNING - ⚠️  Missing required environment variables:
+2025-06-13 16:27:15,560 - __main__ - WARNING -    • OPENAI_API_KEY (OpenAI API (for UX analysis))
+2025-06-13 16:27:15,560 - __main__ - WARNING -    • REDDIT_CLIENT_ID (Reddit API (for trend collection))
+2025-06-13 16:27:15,560 - __main__ - WARNING -    • REDDIT_CLIENT_SECRET (Reddit API (for trend collection))
+2025-06-13 16:27:15,560 - __main__ - WARNING -    • REDDIT_USERNAME (Reddit API (for trend collection))
+2025-06-13 16:27:15,560 - __main__ - WARNING -    • REDDIT_PASSWORD (Reddit API (for trend collection))
+2025-06-13 16:27:15,560 - __main__ - WARNING - ⚠️  Some features may not work properly
+2025-06-13 16:27:15,560 - __main__ - INFO - ℹ️  Optional features available with additional setup:
+2025-06-13 16:27:15,560 - __main__ - INFO -    • UNSPLASH_ACCESS_KEY (Unsplash API (for images))
+2025-06-13 16:27:15,560 - __main__ - INFO -    • SUPABASE_URL (Supabase (for data storage))
+2025-06-13 16:27:15,560 - __main__ - INFO -    • SUPABASE_KEY (Supabase (for data storage))
+2025-06-13 16:27:15,560 - __main__ - INFO -    • NOTION_TOKEN (Notion API (for reporting))
+2025-06-13 16:27:15,560 - __main__ - INFO -    • NOTION_DATABASE_ID (Notion Database (for reporting))
+2025-06-13 16:27:15,561 - __main__ - INFO -    • FIGMA_ACCESS_TOKEN (Figma API (for design integration))
+2025-06-13 16:27:15,561 - __main__ - INFO -    • VERCEL_TOKEN (Vercel API (for deployment))
+2025-06-13 16:27:15,561 - __main__ - INFO - 🚀 Starting AI App Factory workflow for: AI fitness
+2025-06-13 16:27:15,561 - __main__ - INFO - 🧪 DRY RUN MODE - Simulating workflow...
+2025-06-13 16:27:15,561 - __main__ - INFO -    Trend: AI fitness
+2025-06-13 16:27:15,561 - __main__ - INFO -    Category: None
+2025-06-13 16:27:15,561 - __main__ - INFO -    Output: ./generated_apps
+2025-06-13 16:27:15,561 - __main__ - INFO -    Max Retries: 3
+2025-06-13 16:27:15,561 - __main__ - INFO -    Supabase: True
+2025-06-13 16:27:15,561 - __main__ - INFO -    Notion: False
+2025-06-13 16:27:15,561 - __main__ - INFO - ✅ Configuration validated - workflow would execute successfully
+2025-06-13 16:27:23,536 - __main__ - INFO - 🔍 Validating environment configuration...
+2025-06-13 16:27:23,536 - __main__ - WARNING - ⚠️  Missing required environment variables:
+2025-06-13 16:27:23,536 - __main__ - WARNING -    • OPENAI_API_KEY (OpenAI API (for UX analysis))
+2025-06-13 16:27:23,537 - __main__ - WARNING -    • REDDIT_CLIENT_ID (Reddit API (for trend collection))
+2025-06-13 16:27:23,537 - __main__ - WARNING -    • REDDIT_CLIENT_SECRET (Reddit API (for trend collection))
+2025-06-13 16:27:23,537 - __main__ - WARNING -    • REDDIT_USERNAME (Reddit API (for trend collection))
+2025-06-13 16:27:23,537 - __main__ - WARNING -    • REDDIT_PASSWORD (Reddit API (for trend collection))
+2025-06-13 16:27:23,537 - __main__ - WARNING - ⚠️  Some features may not work properly
+2025-06-13 16:27:23,537 - __main__ - INFO - ℹ️  Optional features available with additional setup:
+2025-06-13 16:27:23,537 - __main__ - INFO -    • UNSPLASH_ACCESS_KEY (Unsplash API (for images))
+2025-06-13 16:27:23,537 - __main__ - INFO -    • SUPABASE_URL (Supabase (for data storage))
+2025-06-13 16:27:23,537 - __main__ - INFO -    • SUPABASE_KEY (Supabase (for data storage))
+2025-06-13 16:27:23,537 - __main__ - INFO -    • NOTION_TOKEN (Notion API (for reporting))
+2025-06-13 16:27:23,537 - __main__ - INFO -    • NOTION_DATABASE_ID (Notion Database (for reporting))
+2025-06-13 16:27:23,537 - __main__ - INFO -    • FIGMA_ACCESS_TOKEN (Figma API (for design integration))
+2025-06-13 16:27:23,537 - __main__ - INFO -    • VERCEL_TOKEN (Vercel API (for deployment))
+2025-06-13 16:27:23,538 - __main__ - INFO - 🚀 Starting AI App Factory workflow for: AI fitness
+2025-06-13 16:27:23,541 - orchestrator.app_factory_orchestrator - WARNING - ⚠️ TrendCollector initialization failed: attempted relative import beyond top-level package
+2025-06-13 16:27:23,543 - orchestrator.app_factory_orchestrator - WARNING - ⚠️ UXResearcher initialization failed: attempted relative import beyond top-level package
+2025-06-13 16:27:23,925 - orchestrator.app_factory_orchestrator - WARNING - ⚠️ DesignSystemGenerator initialization failed: attempted relative import beyond top-level package
+2025-06-13 16:27:23,989 - orchestrator.app_factory_orchestrator - WARNING - ⚠️ PrototypeBuilder initialization failed: attempted relative import beyond top-level package
+2025-06-13 16:27:23,989 - orchestrator.app_factory_orchestrator - INFO - AppFactoryOrchestrator initialized with workflow ID: workflow_20250613_162723
+2025-06-13 16:27:23,989 - orchestrator.app_factory_orchestrator - INFO - 🚀 Starting AI App Factory workflow for: AI fitness
+2025-06-13 16:27:23,989 - orchestrator.app_factory_orchestrator - INFO - 🔄 Executing stage: trend_collection (attempt 1)
+2025-06-13 16:27:23,989 - orchestrator.app_factory_orchestrator - INFO - 📊 Executing trend collection...
+2025-06-13 16:27:23,989 - orchestrator.app_factory_orchestrator - INFO - Using mock trend collection...
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - ✅ Stage trend_collection completed successfully in 0.00s
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - 🔄 Executing stage: ux_analysis (attempt 1)
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - 🎯 Executing UX analysis...
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - Using mock UX analysis...
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - ✅ Stage ux_analysis completed successfully in 0.00s
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - 🔄 Executing stage: design_system (attempt 1)
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - 🎨 Executing design system generation...
+2025-06-13 16:27:23,990 - orchestrator.app_factory_orchestrator - INFO - Using mock design system generation...
+2025-06-13 16:27:23,991 - orchestrator.app_factory_orchestrator - INFO - ✅ Stage design_system completed successfully in 0.00s
+2025-06-13 16:27:23,991 - orchestrator.app_factory_orchestrator - INFO - 🔄 Executing stage: prototype_build (attempt 1)
+2025-06-13 16:27:23,991 - orchestrator.app_factory_orchestrator - INFO - 🏗️ Executing prototype build...
+2025-06-13 16:27:23,992 - orchestrator.app_factory_orchestrator - INFO - Using mock prototype build...
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - ✅ Stage prototype_build completed successfully in 0.00s
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - 🔄 Executing stage: deployment (attempt 1)
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - 🚀 Executing deployment setup...
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - ✅ Stage deployment completed successfully in 0.00s
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - 🔄 Executing stage: reporting (attempt 1)
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - 📄 Executing reporting...
+2025-06-13 16:27:23,995 - orchestrator.app_factory_orchestrator - INFO - ✅ Stage reporting completed successfully in 0.00s
+2025-06-13 16:27:23,996 - orchestrator.app_factory_orchestrator - INFO - 🎉 Workflow completed successfully!
+2025-06-13 16:27:23,997 - __main__ - INFO - 
+============================================================
+2025-06-13 16:27:23,997 - __main__ - INFO - 🎉 AI App Factory Workflow Completed!
+2025-06-13 16:27:23,997 - __main__ - INFO - ============================================================
+2025-06-13 16:27:23,997 - __main__ - INFO - 📊 Status: completed
+2025-06-13 16:27:23,997 - __main__ - INFO - ⏱️  Total Duration: 0.006284 seconds
+2025-06-13 16:27:23,997 - __main__ - INFO - 📈 Success Rate: 100.0%
+2025-06-13 16:27:23,997 - __main__ - INFO - 
+🎯 Generated App:
+2025-06-13 16:27:23,997 - __main__ - INFO -    📱 Name: AiFitnessPro
+2025-06-13 16:27:23,997 - __main__ - INFO -    📁 Location: generated_apps/aifitnesspro
+2025-06-13 16:27:23,997 - __main__ - INFO - 
+🚀 Next Steps:
+2025-06-13 16:27:23,997 - __main__ - INFO -    1. 1. Navigate to project: cd generated_apps/aifitnesspro
+2025-06-13 16:27:23,997 - __main__ - INFO -    2. 2. Install dependencies: npm install
+2025-06-13 16:27:23,997 - __main__ - INFO -    3. 3. Start development: npm start
+2025-06-13 16:27:23,997 - __main__ - INFO -    4. 4. Open http://localhost:3000
+2025-06-13 16:27:23,997 - __main__ - INFO -    5. 5. Deploy using vercel --prod or netlify deploy --prod
+2025-06-13 16:27:23,997 - __main__ - INFO - 
+💾 Full results saved to: workflow_result_20250613_162723.json
+2025-06-13 16:27:37,922 - __main__ - INFO - 📋 Recent Workflows:
+2025-06-13 16:27:37,922 - __main__ - INFO - ------------------------------------------------------------
+2025-06-13 16:27:37,924 - __main__ - INFO -   📱 AI fitness | completed | 2025-06-13
+2025-06-13 16:27:37,924 - __main__ - INFO -   📱 ProductivityAI Pro | Unknown | Unknown
