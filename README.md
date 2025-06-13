@@ -111,14 +111,13 @@ cp .env.example .env
 OPENAI_API_KEY=your_openai_key_here
 REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_secret
-REDDIT_USERNAME=your_username
-REDDIT_PASSWORD=your_password
+REDDIT_REFRESH_TOKEN=your_refresh_token
 UNSPLASH_ACCESS_KEY=your_unsplash_key  # 선택사항
 ```
 
 #### 🔑 API 키 발급 가이드
 - **OpenAI**: [platform.openai.com](https://platform.openai.com/) → API Keys
-- **Reddit**: [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps/) → Create App → Script
+- **Reddit**: [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps/) → Create App → Script → OAuth2 인증 후 Refresh Token 발급
 - **Unsplash**: [unsplash.com/developers](https://unsplash.com/developers) → New Application (무료)
 
 ### 3️⃣ 시스템 확인 및 실행

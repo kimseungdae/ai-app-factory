@@ -41,8 +41,7 @@ class RedditClient:
         self.reddit = praw.Reddit(
             client_id=config.get_api_key('reddit_client_id'),
             client_secret=config.get_api_key('reddit_client_secret'),
-            username=os.getenv('REDDIT_USERNAME'),
-            password=os.getenv('REDDIT_PASSWORD'),
+            refresh_token=os.getenv('REDDIT_REFRESH_TOKEN'),
             user_agent=config.get('apis.reddit.user_agent', 'AI App Factory Bot 1.0')
         )
     

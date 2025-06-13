@@ -106,8 +106,7 @@ python main.py --status workflow_20231201_120000
 OPENAI_API_KEY=your_openai_api_key
 REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
-REDDIT_USERNAME=your_reddit_username
-REDDIT_PASSWORD=your_reddit_password
+REDDIT_REFRESH_TOKEN=your_reddit_refresh_token
 
 # 선택적 환경 변수
 UNSPLASH_ACCESS_KEY=your_unsplash_key

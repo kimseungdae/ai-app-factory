@@ -71,8 +71,7 @@ def validate_environment():
         'OPENAI_API_KEY': 'OpenAI API (for UX analysis)',
         'REDDIT_CLIENT_ID': 'Reddit API (for trend collection)',
         'REDDIT_CLIENT_SECRET': 'Reddit API (for trend collection)',
-        'REDDIT_USERNAME': 'Reddit API (for trend collection)',
-        'REDDIT_PASSWORD': 'Reddit API (for trend collection)'
+        'REDDIT_REFRESH_TOKEN': 'Reddit API (for trend collection)'
     }
     
     missing_vars = []
