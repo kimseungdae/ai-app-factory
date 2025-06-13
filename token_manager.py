@@ -42,20 +42,12 @@ class SimpleTokenManager:
                 "example": "xyz789...",
                 "url": "https://www.reddit.com/prefs/apps"
             },
-            "REDDIT_USERNAME": {
-                "name": "Reddit Username",
+            "REDDIT_REFRESH_TOKEN": {
+                "name": "Reddit Refresh Token",
                 "required": True,
-                "description": "Reddit 사용자명",
-                "example": "your_username",
-                "url": "https://www.reddit.com",
-                "sensitive": False
-            },
-            "REDDIT_PASSWORD": {
-                "name": "Reddit Password",
-                "required": True,
-                "description": "Reddit 비밀번호",
-                "example": "your_password",
-                "url": "https://www.reddit.com"
+                "description": "OAuth 인증을 위한 리프레시 토큰",
+                "example": "your_refresh_token",
+                "url": "https://www.reddit.com/prefs/apps"
             },
             
             # 선택적 토큰
@@ -377,8 +369,7 @@ class SimpleTokenManager:
             "OPENAI_API_KEY": lambda v: v.startswith("sk-") and len(v) > 20,
             "REDDIT_CLIENT_ID": lambda v: len(v) > 10,
             "REDDIT_CLIENT_SECRET": lambda v: len(v) > 10,
-            "REDDIT_USERNAME": lambda v: len(v) > 0,
-            "REDDIT_PASSWORD": lambda v: len(v) > 0,
+            "REDDIT_REFRESH_TOKEN": lambda v: len(v) > 20,
             "UNSPLASH_ACCESS_KEY": lambda v: len(v) > 20,
             "SUPABASE_URL": lambda v: v.startswith("https://") and "supabase" in v,
             "SUPABASE_KEY": lambda v: len(v) > 50,

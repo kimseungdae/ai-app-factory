@@ -108,8 +108,7 @@ python install.py
 **생성 후 필요한 정보**:
 - **Client ID**: 앱 이름 아래의 14자리 문자열
 - **Client Secret**: 'secret' 항목의 값
-- **Username**: Reddit 사용자명
-- **Password**: Reddit 비밀번호
+- **Refresh Token**: OAuth2 인증 후 발급되는 토큰
 
 ### 3️⃣ Unsplash API 설정 (선택사항)
 
@@ -186,8 +185,7 @@ python install.py
 OPENAI_API_KEY=sk-proj-your-openai-key-here
 REDDIT_CLIENT_ID=your-reddit-client-id
 REDDIT_CLIENT_SECRET=your-reddit-client-secret
-REDDIT_USERNAME=your-reddit-username
-REDDIT_PASSWORD=your-reddit-password
+REDDIT_REFRESH_TOKEN=your-reddit-refresh-token
 
 # 선택적 토큰
 UNSPLASH_ACCESS_KEY=your-unsplash-key

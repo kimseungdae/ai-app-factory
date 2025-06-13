@@ -82,27 +82,14 @@ class TokenSetupWizard:
                 ]
             ),
             TokenInfo(
-                name="Reddit Username",
-                env_var="REDDIT_USERNAME",
-                description="Reddit 계정 사용자명",
+                name="Reddit Refresh Token",
+                env_var="REDDIT_REFRESH_TOKEN",
+                description="OAuth 인증을 위한 리프레시 토큰",
                 required=True,
-                get_url="https://www.reddit.com",
+                get_url="https://www.reddit.com/prefs/apps",
                 instructions=[
-                    "1. Reddit 계정의 사용자명 입력",
-                    "2. /u/ 없이 사용자명만 입력",
-                    "3. 예: your_username"
-                ],
-                is_sensitive=False
-            ),
-            TokenInfo(
-                name="Reddit Password",
-                env_var="REDDIT_PASSWORD",
-                description="Reddit 계정 비밀번호",
-                required=True,
-                get_url="https://www.reddit.com",
-                instructions=[
-                    "1. Reddit 계정의 비밀번호 입력",
-                    "2. 2FA 사용 시 앱 전용 비밀번호 생성 필요"
+                    "1. Reddit 앱에서 OAuth2 인증 플로우 진행",
+                    "2. 승인 후 발급되는 refresh token 복사"
                 ]
             ),
             TokenInfo(
@@ -507,8 +494,7 @@ class TokenSetupWizard:
             "OPENAI_API_KEY": lambda v: v.startswith("sk-") and len(v) > 20,
             "REDDIT_CLIENT_ID": lambda v: len(v) > 10 and not v.startswith("your_"),
             "REDDIT_CLIENT_SECRET": lambda v: len(v) > 10 and not v.startswith("your_"),
-            "REDDIT_USERNAME": lambda v: len(v) > 0 and not v.startswith("your_"),
-            "REDDIT_PASSWORD": lambda v: len(v) > 0 and not v.startswith("your_"),
+            "REDDIT_REFRESH_TOKEN": lambda v: len(v) > 20,
             "UNSPLASH_ACCESS_KEY": lambda v: len(v) > 20,
             "SUPABASE_URL": lambda v: v.startswith("https://") and "supabase" in v,
             "SUPABASE_KEY": lambda v: len(v) > 50,

@@ -64,8 +64,7 @@ python install.py
 1. **OpenAI API Key** - AI 분석용 (유료, 월 $5-10)
 2. **Reddit Client ID** - 트렌드 수집용 (무료)
 3. **Reddit Client Secret** - Reddit API 인증 (무료)
-4. **Reddit Username** - Reddit 계정 (무료)
-5. **Reddit Password** - Reddit 비밀번호 (무료)
+4. **Reddit Refresh Token** - OAuth 인증용 (무료)
 
 ### 🟡 선택적 토큰 (7개)
 1. **Unsplash Access Key** - 이미지 수집 (무료, 월 50회)
